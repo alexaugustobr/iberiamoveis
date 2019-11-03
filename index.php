@@ -4522,16 +4522,8 @@ background-color: #00ad00;
 
 </style>
 <div class="my-social-itens">
-<a href="https://www.facebook.com/MarcenariaDelta/" target="__blank" class="my-social-fb my-social__container">
-  <div class="my-social">
-      <svg width="64px" height="64px" viewBox="-110 1 511 511.99896" xmlns="http://www.w3.org/2000/svg">
-          <path d="m207.36 126.73c0.69922-0.78906 3.9688-3.3672 16.809-3.3672l42.098-0.015626c13.695 0 24.832-11.141 24.832-24.836v-73.578c0-13.672-11.121-24.812-24.793-24.836l-62.531-0.10156c-38.594 0-71.402 12.73-94.879 36.82-23.371 23.98-35.727 57.457-35.727 96.805v39.684h-47.836c-13.695 0-24.836 11.141-24.836 24.836v79.242c0 13.695 11.141 24.836 24.836 24.836h47.836v184.94c0 13.695 11.141 24.836 24.836 24.836h81.992c13.695 0 24.836-11.141 24.836-24.836v-184.94h58.473c13.695 0 24.832-11.145 24.832-24.832l0.03125-79.246c0-8.9961-4.8945-17.32-12.777-21.723-3.6523-2.0391-7.9023-3.1172-12.285-3.1172h-58.273v-31.352c0-10.219 1.375-13.918 2.5273-15.223z" fill="#fff"></path>
-      </svg>
-      <p>Visite nossa página no facebook</p>
-  </div>
-</a>
 
-<a href="https://www.instagram.com/marcenariadelta/" target="__blank" class="my-social-instagram my-social__container">
+<a href="" target="__blank" class="my-social-instagram my-social__container">
 <div class="my-social">
 <svg width="64px" height="64px" enable-background="new 0 0 169.063 169.063" version="1.1" viewBox="0 0 169.063 169.063" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
   <g fill="#fff">
@@ -4544,7 +4536,7 @@ background-color: #00ad00;
 </div>
 </a>
 
-<a href="https://web.whatsapp.com/send?phone=5531989551452&amp;text=Olá%20Marcenaria%20Delta! " target="__blank" class="my-social-whatsapp my-social__container">
+<a href="https://web.whatsapp.com/send?phone=982523165&amp;text=Olá " target="__blank" class="my-social-whatsapp my-social__container">
 <div class="my-social">
 <svg width="64" height="64" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
 <path d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z" fill="#FFF"></path>
