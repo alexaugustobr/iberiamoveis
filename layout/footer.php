@@ -28,5 +28,4 @@
       </div>
     </div>
   </footer>
-  
-<?php include "./layout/scripts.php"; ?>
+

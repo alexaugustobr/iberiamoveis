@@ -14,9 +14,10 @@
     <?php include "./layout/home.php"; ?>
 
     <?php include "./layout/whatsapp.php"; ?>
-    
+
     <?php include "./layout/footer.php"; ?>
 
+    <?php include "./layout/scripts.php"; ?>
 
 </body>
 
