@@ -19,7 +19,8 @@
 
 </body>
 
+<!--scripts-->
 <?php include "./layout/scripts.php"; ?>
-
+<!--scripts-->
 
 </html>
