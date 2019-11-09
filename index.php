@@ -17,8 +17,6 @@
 
     <?php include "./layout/footer.php"; ?>
 
-  
-
 </body>
 
 <?php include "./layout/scripts.php"; ?>
