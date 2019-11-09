@@ -1,6 +1,6 @@
 <div class="floating-wpp"> </div>
-<link rel="stylesheet" href="/zap/floating-wpp.min.css">
-<script src="/zap/floating-wpp.min.js"></script>
+<link rel="stylesheet" href="/css/floating-wpp.min.css">
+<script src="/js/floating-wpp.min.js"></script>
 <script type="text/javascript">
     $('.floating-wpp').floatingWhatsApp({
 
