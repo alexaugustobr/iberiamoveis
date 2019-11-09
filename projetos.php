@@ -18,10 +18,12 @@
 
     <?php include "./layout/footer.php"; ?>
 
-    <?php include "./layout/scripts.php"; ?>
+   
 
 
 </body>
+
+<?php include "./layout/scripts.php"; ?>
 
 
 </html>
