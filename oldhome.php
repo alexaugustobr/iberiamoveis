@@ -1155,10 +1155,7 @@
 
         /*# sourceURL=/extensions/amp-fit-text/0.1/amp-fit-text.css*/
     </style>
-    
-    <title>Ibéria Móveis Sob Medida</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style amp-boilerplate="">
+     <style amp-boilerplate="">
         body {
             -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
             -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -1216,17 +1213,8 @@
             }
         }
     </style>
-    <noscript>
-        <style amp-boilerplate>
-            body {
-                -webkit-animation: none;
-                -moz-animation: none;
-                -ms-animation: none;
-                animation: none
-            }
-        </style>
-    </noscript>
-    <link href="files/css_002.css" rel="stylesheet">
+
+<link href="files/css_002.css" rel="stylesheet">
     <link href="files/css.css" rel="stylesheet">
 
     <style amp-custom="">
@@ -4303,6 +4291,22 @@
         }
     </style>
 
+    
+    <title>Ibéria Móveis Sob Medida</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+
     <script async="" src="files/v0.js"></script>
     <script async="" custom-element="amp-analytics" src="files/amp-analytics-0.js"></script>
     <script async="" custom-element="amp-carousel" src="files/amp-carousel-0.js"></script>
@@ -4784,6 +4788,7 @@
             </div>
         </div>
     </section>
+    
     <section class="social-buttons1 cid-qNA5xrV33N" id="social-buttons1-9c">
         <div class="mbr-overlay"></div>
         <div class="container align-center">
