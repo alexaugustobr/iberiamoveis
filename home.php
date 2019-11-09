@@ -4332,6 +4332,8 @@
 
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                 <li class="nav-item dropdown open">
+                    <a class="nav-link link text-black  display-4" href="/projetos.php" aria-expanded="true">Projetos</a>
+                    <!-- 
                     <a class="nav-link link text-black dropdown-toggle display-4" data-toggle="dropdown-submenu"
                         aria-expanded="true">Projetos</a>
                     <div class="dropdown-menu">
@@ -4342,6 +4344,7 @@
                         <a class="text-black dropdown-item display-4" href="/comercial.html">Comercial</a>
                         <a class="text-black dropdown-item display-4" href="/3d.html">Projetos 3d</a>
                     </div>
+                    -->
                 </li>
             </ul>
 
@@ -4362,7 +4365,10 @@
 
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                     <li class="nav-item dropdown open">
-                        <a class="nav-link link text-black dropdown-toggle display-" data-toggle="dropdown-submenu"
+                    
+                    <a class="nav-link link text-black display-" href="/projetos.php"
+                            aria-expanded="true">Projetos</a>
+                       <!--  <a class="nav-link link text-black dropdown-toggle display-" data-toggle="dropdown-submenu"
                             aria-expanded="true">Projetos</a>
 
                         <div class="dropdown-menu">
@@ -4372,7 +4378,7 @@
                             <a class="text-black dropdown-item display-4" href="/banheiros.html">Banheiros</a>
                             <a class="text-black dropdown-item display-4" href="/comercial.html">Comercial</a>
                             <a class="text-black dropdown-item display-4" href="/3d.html">Projetos 3d</a>
-                        </div>
+                        </div> -->
                     </li>
                 </ul>
 
@@ -4495,7 +4501,7 @@
                         
                         <div class="card-img">
                             <a  href="/dormitorios.html" style="display: hidden;">
-                            <amp-img src="/projetos/dormitorios/4.jpg" layout="responsive" height="233"
+                            <amp-img src="/projetos/dormitorios/27.jpg" layout="responsive" height="233"
                                 width="349.2505353319058" 
                                 class="mobi-loader i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-layout"
                                 i-amphtml-layout="responsive" style="--loader-delay-offset:67ms !important;">
@@ -4508,7 +4514,7 @@
                                     </div>
                                 </div>
 
-                                <img decoding="async"  src="/projetos/dormitorios/4.jpg"
+                                <img decoding="async"  src="/projetos/dormitorios/27.jpg"
                                     class="i-amphtml-fill-content i-amphtml-replaced-content">
                             </amp-img>
                         </a>
