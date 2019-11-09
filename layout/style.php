@@ -11,20 +11,10 @@
   <!-- Custom styles for this template -->
   <link href="/css/agency.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="/assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="/assets/tether/tether.min.css">
-  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="/assets/theme/css/style.css">
-  <link rel="stylesheet" href="/assets/gallery/style.css">
-  <link rel="stylesheet" href="/assets/mobirise/css/mbr-additional.css" type="text/css">
-
-
 
 
   <link href="/css/contact.css" rel="stylesheet">
 
   <!--zap-->
 
-<link rel="stylesheet" href="/css/floating-wpp.min.css">
+  <link rel="stylesheet" href="/css/floating-wpp.min.css">
