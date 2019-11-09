@@ -9,13 +9,13 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
     <ul class="navbar-nav text-uppercase ml-auto">
         <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        <a class="nav-link js-scroll-trigger" href="/#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#diferencial">Diferencial</a>
+        <a class="nav-link js-scroll-trigger" href="/#diferencial">Diferencial</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+        <a class="nav-link js-scroll-trigger" href="/#contact">Contato</a>
         </li>
     </ul>
     </div>

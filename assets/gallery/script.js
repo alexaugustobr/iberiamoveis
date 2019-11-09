@@ -151,7 +151,7 @@
             $section.find('.mbr-gallery-filter ul li:not(li:eq(0))').remove();
 
             filterList.map(function(el) {
-                filterHtml += '<li><a class="btn btn-md btn-primary-outline" href>' + el + '</a></li>';
+                filterHtml += '<li><a class="btn btn-md btn-primary-outline" href >' + el + '</a></li>';
             });
             $section.find('.mbr-gallery-filter ul').append(allItem).append(filterHtml);
 
