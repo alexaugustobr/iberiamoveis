@@ -13,10 +13,12 @@
     <?php include "./layout/nav.php"; ?>
     
     <?php include "./layout/projetos.php"; ?>
+    
+    <?php include "./layout/whatsapp.php"; ?>
 
     <?php include "./layout/footer.php"; ?>
 
-    <?php include "./layout/whatsapp.php"; ?>
+    
 
 
 </body>
