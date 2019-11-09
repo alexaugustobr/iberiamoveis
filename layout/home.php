@@ -108,7 +108,7 @@
                 <p class="mbr-text">
                     <strong>Endereço</strong>
                     <br>
-                    <br>R. Prof. José de Barros Pinto, 193b
+                    <br>R. Prof. José de Barros Pinto, 193B e 193C
                     <br>Vila Frugoli, São Paulo - SP, 03674-040
                     <br>
                     <br><strong>Contato</strong>
