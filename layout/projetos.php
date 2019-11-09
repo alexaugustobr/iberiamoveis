@@ -38,6 +38,19 @@ function imageModalFromFolder($folder, $firstList)
 
 ?>
 
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <!-- <div class="intro-lead-in">Móveis Sob Medida</div> -->
+        <div class="intro-heading text-uppercase">Projetos</div>
+        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Projetos</a> -->
+      </div>
+    </div>
+  </header>
+
+
 <section class="mbr-gallery mbr-slider-carousel cid-ruuHhHl8AI" id="gallery2-0">
 	<div class="container">
 		<div>

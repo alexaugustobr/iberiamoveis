@@ -3,9 +3,9 @@
 ?>
 
 <!DOCTYPE html>
-<html amp="" amp-version="1910302211460" style="padding-top: 0px !important;" class="i-amphtml-singledoc i-amphtml-standalone">
+<html>
 
-<body>
+<body id="page-top">
 
     <?php include "./layout/header.php"; ?>
 
