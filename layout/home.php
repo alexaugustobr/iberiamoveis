@@ -75,7 +75,7 @@
       </div>
       <div class="row text-center">
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <span class="fa-stack fa-2x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-credit-card fa-stack-1x fa-inverse"></i>
           </span>
@@ -83,7 +83,7 @@
           <p class="text-muted">Parcele em até 12X no Cartão, também oferecemos desconto para pagamento á vista.</p>
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <span class="fa-stack fa-2x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-bed fa-stack-1x fa-inverse"></i>
           </span>
@@ -91,7 +91,7 @@
           <p class="text-muted">Oferecemos garantia em todos os nossos móveis.</p>
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <span class="fa-stack fa-2x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-cube fa-stack-1x fa-inverse"></i>
           </span>
@@ -101,51 +101,69 @@
       </div>
     </div>
   </section>
-
-  <!-- Contact -->
-  <section class="page-section" id="contact">
+  <section class="contact-map page-section" id="contact" data-rv-view="2379">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-              </div>
+        <div class="media-container-row content mbr-white">
+            <div class="col-12 col-md-6 mbr-fonts-style display-7">
+                <p class="mbr-text">
+                    <strong>Endereço</strong>
+                    <br>
+                    <br>R. Prof. José de Barros Pinto, 193b
+                    <br>Vila Frugoli, São Paulo - SP, 03674-040
+                    <br>
+                    <br><strong>Contato</strong>
+                    <br>
+                    <br>Email: <a href="mailto:iberiamoveis@gmail.comm">iberiamoveis@gmail.com</a>
+                    <br>Telefone: (11) 3756-2605 
+                    <br>WhatsApp: (11) 98841-3302
+                </p>
             </div>
-          </form>
+            <div class="col-12 col-md-6">
+                <div class="google-map"><iframe style="border:0" 
+                src="https://www.google.com/maps/embed?key=AIzaSyDsmOVpjte6zvtKLK2fma50QUIDdrqImSk&pb=!1m14!1m8!1m3!1d7316.737170417157!2d-46.499788!3d-23.519242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6095a2366c21%3A0x1a785f586db516fe!2sR.%20Prof.%20Jos%C3%A9%20de%20Barros%20Pinto%2C%20193b%20-%20Vila%20Frugoli%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003674-040!5e0!3m2!1spt-BR!2sbr!4v1572806782250!5m2!1spt-BR!2sbr"
+               allowfullscreen="" frameborder="0"></iframe></div>
+            </div>
         </div>
-      </div>
+        <div class="footer-lower">
+            <div class="media-container-row mbr-white">
+                <div class="col-md-6">
+                    <div class="social-list align-right">
+                        <div class="soc-item">
+                            <a href="https://twitter.com/mobirise" target="_blank">
+                                <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                                <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://instagram.com/mobirise" target="_blank">
+                                <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                                <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.behance.net/Mobirise" target="_blank">
+                                <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
 
   <!-- Footer -->
   <footer class="footer">

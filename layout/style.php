@@ -11,6 +11,8 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+  <link href="css/contact.css" rel="stylesheet">
+
   <!-- <style>
   .bg-image {
   /* The image used */
