@@ -80,7 +80,7 @@
             <i class="fas fa-credit-card fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Parcelamos no cartão</h4>
-          <p class="text-muted">Parcele em até 12X no Cartão, também oferecemos desconto para pagamento á vista.</p>
+          <p class="text-muted">Parcele no cartão, também oferecemos desconto para pagamento à vista.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-2x">
