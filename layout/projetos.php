@@ -12,7 +12,7 @@ function imageFromFolder($folder, $tags, $slideToIndex)
 		echo "<div class='mbr-gallery-item mbr-gallery-item--p2' data-video-url='false'";
 		echo "	data-tags='$tags'>";
 		echo "	<div href='#lb-gallery2-0' data-slide-to='$slideToIndex' data-toggle='modal'>";
-		echo "			<img async src='${folder}/${imagem}' alt='' title=''><span";
+		echo "			<img  src='${folder}/${imagem}' alt='' title=''><span";
 		echo "			class='icon-focus'></span></div>";
 		echo " </div>";
 		$slideToIndex++;
@@ -30,7 +30,7 @@ function imageModalFromFolder($folder, $firstList)
 		} else {
 			echo "<div class='carousel-item'>";
 		}
-		echo "			<img async src='${folder}/${imagem}' alt='' title=''>";
+		echo "			<img  src='${folder}/${imagem}' alt='' title=''>";
 		echo " </div>";
 		$index++;
 	}
