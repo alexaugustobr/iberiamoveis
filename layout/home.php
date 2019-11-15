@@ -88,7 +88,7 @@
             <i class="fas fa-bed fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Móveis com garantia</h4>
-          <p class="text-muted">Oferecemos garantia em todos os nossos móveis.</p>
+          <p class="text-muted">Oferecemos garantia nos nossos móveis.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-2x">
@@ -96,7 +96,7 @@
             <i class="fas fa-cube fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Projeto 3D personalizado</h4>
-          <p class="text-muted">Colocamos a sua disposição uma equipe de designer para desenvolver o seu projeto sob medida.</p>
+          <p class="text-muted">Desenvolvemos o seu projeto 3d sob medida.</p>
         </div>
       </div>
     </div>
