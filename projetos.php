@@ -84,7 +84,7 @@ body, html {
     color: white;
 }
 .company-logo {
-    margin-left: 2em;
+    margin-left: 10px;
     padding: 0 !important;
     font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,
     'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji',
