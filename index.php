@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 <meta name="title" content="Ibéria Móveis Sob Medida">
 <meta name="description" content="Ibéria Móveis Sob Medida, Marcenária Móveis Sob Medida atendemos em São Paulo">
-<meta name="robots" content="noindex, follow">
+<meta name="robots" content="all">
 
 <title>Ibéria Móveis Sob Medida</title>
 
@@ -234,7 +234,7 @@ position: relative;
   </div>
   <div class="w3-col m6">
     <div style="margin-top:32px; overflow:hidden;width: 100%;position: relative;">
-      <iframe width="100%" height="440" style="border:0" src="https://www.google.com/maps/embed?key=AIzaSyDsmOVpjte6zvtKLK2fma50QUIDdrqImSk&pb=!1m14!1m8!1m3!1d7316.737170417157!2d-46.499788!3d-23.519242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6095a2366c21%3A0x1a785f586db516fe!2sR.%20Prof.%20Jos%C3%A9%20de%20Barros%20Pinto%2C%20193b%20-%20Vila%20Frugoli%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003674-040!5e0!3m2!1spt-BR!2sbr!4v1572806782250!5m2!1spt-BR!2sbr" allowfullscreen="" frameborder="0"></iframe>
+    <a href="https://www.google.com/maps/place/R.+Prof.+José+de+Barros+Pinto+193C/"><img src="https://maps.googleapis.com/maps/api/staticmap?center=R.+Prof.+José+de+Barros+Pinto+193C&zoom=50&scale=false&size=440x440&maptype=roadmap&key=AIzaSyDsmOVpjte6zvtKLK2fma50QUIDdrqImSk&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CIbéria+Móveis" alt="Google Map of R. Prof. José de Barros Pinto 193C"></a>
     </div>
   </div>
 </div>
