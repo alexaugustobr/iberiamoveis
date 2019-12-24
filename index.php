@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<title>Ibéria Móveis Sob Medida, Marcenária Móveis Sob Medida atendemos em São Paulo</title>
+<title>Ibéria Móveis Sob Medida, Marcenária atendemos em São Paulo</title>
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-<meta name="title" content="Ibéria Móveis Sob Medida">
-<meta name="description" content="Ibéria Móveis Sob Medida, Marcenária Móveis Sob Medida atendemos em São Paulo">
+<meta name="title" content="Ibéria Móveis Sob Medida, Marcenária atendemos em São Paulo">
+<meta name="description" content="Marcenária Móveis Sob Medida, solicite um projeto 3d personalizado para diversos tipos de ambiente como salas, dormitórios e cozinhas">
 <meta name="robots" content="all">
 <meta http-equiv="Content-Language" content="pt-br">
 
