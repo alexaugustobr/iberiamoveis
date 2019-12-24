@@ -1,3 +1,36 @@
+<?php
+function readFilesFromFolder($folder)
+{
+    return array_diff(scandir($folder), array('..', '.'));
+}
+function imageFromFolder($folder, $tags, $slideToIndex)
+{
+    $imagens = readFilesFromFolder($folder);
+    foreach ($imagens as &$imagem) {
+        echo "<div class='w3-col l3 m6'>";
+        echo "<img src='${folder}/${imagem}' style='width:100%' onclick='onClick(this)' class='w3-hover-opacity'>";
+        echo "</div>";
+        $slideToIndex++;
+    }
+    return $slideToIndex;
+}
+function imageModalFromFolder($folder, $firstList)
+{
+    $imagens = readFilesFromFolder($folder);
+    $index = 1;
+    foreach ($imagens as $imagem) {
+        if ($index == 1 && $firstList) {
+            echo "<div class='carousel-item active'>";
+        } else {
+            echo "<div class='carousel-item'>";
+        }
+        echo "<imgsrc='${folder}/${imagem}' alt='' title=''>";
+        echo "</div>";
+        $index++;
+    }
+} 
+?> 
+
 <!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
@@ -106,37 +139,28 @@ position: relative;
   <a href="/#contato" onclick="w3_close()" class="w3-bar-item w3-button w3-a">Contato</a>
 </nav>
 
-<!-- Team Section -->
-<div class="w3-container" style="padding:64px 16px" id="portfolio">
-  <h3 class="w3-center" style="font-size: 40px; font-weight: 700;">Portfólio</h3>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/img/cozinhas.jpg" style="width:100%">
-        <div class="w3-container w3-center">
-          <h3>Cozinhas</h3>
-          <p><a href="/projetos" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/img/dormitorios.jpg" style="width:100%">
-        <div class="w3-container w3-center">
-          <h3>Dormitórios</h3>
-          <p><a href="/projetos" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/img/salas.jpg" style="width:100%">
-        <div class="w3-container w3-center">
-          <h3>Salas</h3>
-          <p><a href="/projetos" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
-        </div>
-      </div>
-    </div>
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Portfólio</h3>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <?php
+      $slideToIndex = 0;
+      $slideToIndex = imageFromFolder('./img/projetos/3d', 'Projetos 3d', $slideToIndex);
+      $slideToIndex = imageFromFolder('./img/projetos/banheiros', 'Banheiros', $slideToIndex);
+      $slideToIndex = imageFromFolder('./img/projetos/cozinhas', 'Cozinhas', $slideToIndex);
+      $slideToIndex = imageFromFolder('./img/projetos/dormitorios', 'Dormitórios', $slideToIndex);
+      $slideToIndex = imageFromFolder('./img/projetos/salas', 'Salas', $slideToIndex);
+      $slideToIndex = imageFromFolder('./img/projetos/comercial', 'Comercial', $slideToIndex);
+    ?>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
 
