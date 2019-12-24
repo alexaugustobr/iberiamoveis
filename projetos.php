@@ -179,8 +179,8 @@ position: relative;
         <br><strong>Contato</strong>
         <br>
         <br>Email: <a href="mailto:iberiamoveis@gmail.com" class="text-y">iberiamoveis@gmail.com</a>
-        <br>Telefone: (11) 3756-2605 
-        <br>WhatsApp: (11) 98841-3302
+        <br>Telefone: <a href="tel:+551137562605">(11) 3756-2605</a> 
+        <br>WhatsApp: <a href="tel:+5511988413302">(11) 98841-3302</a> 
         <br>
         <br><strong>Redes Sociais</strong>
         <br>
