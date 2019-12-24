@@ -11,7 +11,7 @@
 <meta name="robots" content="all">
 <meta http-equiv="Content-Language" content="pt-br">
 
-<title>Ibéria Móveis Sob Medida</title>
+<title>Ibéria Móveis Sob Medida, Marcenária Móveis Sob Medida atendemos em São Paulo</title>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151938845-1"></script>

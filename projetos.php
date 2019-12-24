@@ -18,7 +18,7 @@ function imageFromFolder($folder, $tags, $slideToIndex)
 
 <!DOCTYPE html>
 <html lang="pt-br">
-<title>Ibéria Móveis Sob Medida</title>
+<title>Ibéria Móveis Sob Medida, Marcenária Móveis Sob Medida atendemos em São Paulo</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
