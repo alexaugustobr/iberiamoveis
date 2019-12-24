@@ -1,6 +1,6 @@
 <?php ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <title>Ibéria Móveis Sob Medida</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
