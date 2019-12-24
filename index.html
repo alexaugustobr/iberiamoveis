@@ -4,11 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/css/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body {
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,
+  'Helvetica Neue',Arial,sans-serif,
+  'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,
+  'Helvetica Neue',Arial,sans-serif,
+  'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
 
 body, html {
   height: 100%;
@@ -17,10 +32,11 @@ body, html {
 
 /* Full height image header */
 .bgimg-1 {
+  background-color: #212529;
   background-position: center;
   background-size: cover;
   background-image: url("/img/header-bg.jpg");
-  min-height: 100%;
+  min-height: 50%;
 }
 
 .w3-bar .w3-button {
@@ -38,11 +54,32 @@ body, html {
     color: white;
 }
 .company-logo {
-    margin-left: 30px; 
+    margin-left: 2em;
+    padding: 0 !important;
     font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,
     'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji',
     'Segoe UI Symbol','Noto Color Emoji';
-    font-size: 2.4rem;
+    font-size: 2.0rem;
+}
+
+.w3-button:hover {
+  color: white!important;
+  background-color: #fed136 !important;
+}
+
+.text-headings {
+  font-weight: 700;
+  font-size: 50px;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.google-map {
+height: 25rem;
+position: relative;
 }
 </style>
 <body>
@@ -52,15 +89,15 @@ body, html {
   <div class="w3-bar w3-card bg-black" id="myNavbar">
     <a href="/#home" class="w3-bar-item w3-button w3-wide text-y company-logo">Ibéria</a>
     <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small" style="margin-top: 20px;">
+    <div class="w3-right w3-hide-small">
       <!-- <a href="#about" class="w3-bar-item w3-button text-w">ABOUT</a> -->
-      <a href="/projetos" class="w3-bar-item w3-button text-w"><i class="fa fa-user"></i> Portfólio</a>
+      <a href="/projetos" class="w3-bar-item w3-button text-w"><i class="fa fa-cube"></i> Portfólio</a>
       <a href="/#diferencial" class="w3-bar-item w3-button text-w"><i class="fa fa-th"></i> Diferencial</a>
       <a href="/#contato" class="w3-bar-item w3-button text-w"><i class="fa fa-envelope"></i> Contato</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium text-w" style="margin-top: 10px;font-size: 20px;" onclick="w3_open()">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium text-w"  onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
@@ -87,15 +124,15 @@ body, html {
   </div>
 </header>
 <!-- About Section -->
-<div class="w3-container" style="padding:32px 16px" id="about">
-  <h3 class="w3-center" style="font-size: 40px; font-weight: 700;">Diferencial</h3>
+<div class="w3-container  w3-light-grey" style="padding:32px 16px" id="about">
+  <h3 class="w3-center text-headings">Diferencial</h3>
   <div class="w3-row-padding w3-center" style="margin-top:64px; max-width: 1140px; padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;">
     <div class="w3-third">
       <span class="fa-stack fa-2x w3-xxxlarge">
         <i class="fa fa-circle fa-stack-2x text-y"></i>
         <i class="fa fa-credit-card fa-stack-1x fa-inverse"></i>
       </span>
-      <p class="w3-large">Parcelamos no cartão</p>
+      <h4 class="w3-large text-bold w3-xlarge">Parcelamos no cartão</h4>
       <p>Parcele no cartão, também oferecemos desconto para pagamento à vista.</p>
     </div>
     <div class="w3-third">
@@ -103,7 +140,7 @@ body, html {
             <i class="fa fa-circle fa-stack-2x text-y"></i>
             <i class="fa fa-bed fa-stack-1x fa-inverse"></i>
         </span>
-      <p class="w3-large">Móveis com garantia</p>
+      <h4 class="w3-large">Móveis com garantia</h4>
       <p>Oferecemos garantia nos nossos móveis.</p>
     </div>
     <div class="w3-third">
@@ -111,47 +148,40 @@ body, html {
         <i class="fa fa-circle fa-stack-2x text-y"></i>
         <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
       </span>
-      <p class="w3-large">Projeto 3D personalizado</p>
+      <h4 class="w3-large">Projeto 3D personalizado</h4>
       <p>Desenvolvemos o seu projeto 3d sob medida.</p>
     </div>
   </div>
 </div>
 
 <!-- Team Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">THE TEAM</h3>
-  <p class="w3-center w3-large">The ones who runs this company</p>
+<div class="w3-container" style="padding:32px 16px" id="team">
+  <h3 class="w3-center" style="font-size: 40px; font-weight: 700;">Portfólio</h3>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-third w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-        <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        <img src="/img/cozinhas.jpg" style="width:100%">
+        <div class="w3-container w3-center">
+          <h3>Cozinhas</h3>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</button></p>
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-third w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>Anja Doe</h3>
-          <p class="w3-opacity">Art Director</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        <img src="/img/dormitorios.jpg" style="width:100%">
+        <div class="w3-container w3-center">
+          <h3>Dormitórios</h3>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</button></p>
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-third w3-margin-bottom">
       <div class="w3-card">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Web Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        <img src="/img/salas.jpg" style="width:100%">
+        <div class="w3-container w3-center">
+          <h3>Salas</h3>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</button></p>
         </div>
       </div>
     </div>
@@ -159,7 +189,7 @@ body, html {
 </div>
 
 <!-- Contact Section -->
-<div class="w3-container" style="padding:128px 16px" id="contact">
+<div class="w3-container  w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
   <div style="margin-top:48px">
@@ -179,7 +209,7 @@ body, html {
       </p>
     </form>
     <!-- Image of location/map -->
-    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+    <div style="overflow:hidden;width: 440px;position: relative;"><iframe width="440" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=R.%20Prof.%20Jos%C3%A9%20de%20Barros%20Pinto%2C%20193B+(Title)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/">Embedgooglemaps.com/</a> & <a href="http://intramarketresearch.org/">Intramarketresearch org</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br /> 
   </div>
 </div>
 
