@@ -28,8 +28,6 @@ function imageFromFolder($folder, $tags, $slideToIndex)
 <meta name="robots" content="all">
 <meta http-equiv="Content-Language" content="pt-br">
 
-<title>Ibéria Móveis Sob Medida</title>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151938845-1"></script>
 <script>

@@ -1,7 +1,9 @@
 <?php ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-<title>Ibéria Móveis Sob Medida</title>
+
+<title>Ibéria Móveis Sob Medida, Marcenária Móveis Sob Medida atendemos em São Paulo</title>
+
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +12,6 @@
 <meta name="description" content="Ibéria Móveis Sob Medida, Marcenária Móveis Sob Medida atendemos em São Paulo">
 <meta name="robots" content="all">
 <meta http-equiv="Content-Language" content="pt-br">
-
-<title>Ibéria Móveis Sob Medida, Marcenária Móveis Sob Medida atendemos em São Paulo</title>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151938845-1"></script>
