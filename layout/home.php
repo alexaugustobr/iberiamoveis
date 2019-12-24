@@ -4,7 +4,7 @@
     <div class="container">
       <div class="intro-text">
         <!-- <div class="intro-lead-in">Móveis Sob Medida</div> -->
-        <div class="intro-heading text-uppercase" style="color: gainsboro;">Móveis Sob Medida</div>
+        <div class="intro-heading text-uppercase" style="color: #fec503;">Móveis Sob Medida</div>
         <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Projetos</a> -->
       </div>
     </div>

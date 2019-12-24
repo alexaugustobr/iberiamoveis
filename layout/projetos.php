@@ -44,7 +44,7 @@ function imageModalFromFolder($folder, $firstList)
     <div class="container">
       <div class="intro-text">
         <!-- <div class="intro-lead-in">Móveis Sob Medida</div> -->
-        <div class="intro-heading text-uppercase" style="color: gainsboro;">Portfólio</div>
+        <div class="intro-heading text-uppercase" style="color: #fec503;">Portfólio</div>
         <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Projetos</a> -->
       </div>
     </div>

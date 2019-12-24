@@ -3,7 +3,7 @@ import tinify
 tinify.key = ""
 
 paths = [
-    'D:\\git\\iberiamoveis\\projetos\\salas'
+    'D:\\git\\iberiamoveis\\img'
 ]
 
 #
