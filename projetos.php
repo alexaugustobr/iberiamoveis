@@ -417,7 +417,7 @@ position: relative;
 
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">Portfólio</h3>
+  <h1 class="w3-center">Portfólio</h1>
   <div id="photos" class="w3-row-padding" style="margin-top:64px">
     <?php
       $slideToIndex = 0;

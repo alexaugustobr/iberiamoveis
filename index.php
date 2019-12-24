@@ -376,14 +376,14 @@ position: relative;
 </header>
 <!-- About Section -->
 <div class="w3-container  w3-light-grey" style="padding:64px 16px" id="diferencial">
-  <h3 class="w3-center text-headings">Diferencial</h3>
+  <h1 class="w3-center text-headings">Diferencial</h1>
   <div class="w3-row-padding w3-center" style="margin-top:64px; max-width: 1140px; padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;">
     <div class="w3-third">
       <span class="fa-stack fa-2x w3-xxxlarge">
         <i class="fa fa-circle fa-stack-2x text-y"></i>
         <i class="fa fa-credit-card fa-stack-1x fa-inverse"></i>
       </span>
-      <h4 class="w3-large text-bold w3-xlarge">Parcelamos no cartão</h4>
+      <h2 class="w3-large text-bold w3-xlarge">Parcelamos no cartão</h2>
       <p>Parcele no cartão, também oferecemos desconto para pagamento à vista.</p>
     </div>
     <div class="w3-third">
@@ -391,7 +391,7 @@ position: relative;
             <i class="fa fa-circle fa-stack-2x text-y"></i>
             <i class="fa fa-bed fa-stack-1x fa-inverse"></i>
         </span>
-      <h4 class="w3-large">Móveis com garantia</h4>
+      <h2 class="w3-large">Móveis com garantia</h2>
       <p>Oferecemos garantia nos nossos móveis.</p>
     </div>
     <div class="w3-third">
@@ -399,7 +399,7 @@ position: relative;
         <i class="fa fa-circle fa-stack-2x text-y"></i>
         <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
       </span>
-      <h4 class="w3-large">Projeto 3D personalizado</h4>
+      <h2 class="w3-large">Projeto 3D personalizado</h2>
       <p>Desenvolvemos o seu projeto 3d sob medida.</p>
     </div>
   </div>
@@ -407,13 +407,13 @@ position: relative;
 
 <!-- Team Section -->
 <div class="w3-container" style="padding:64px 16px" id="portfolio">
-  <h3 class="w3-center" style="font-size: 40px; font-weight: 700;">Portfólio</h3>
+  <h1 class="w3-center" style="font-size: 40px; font-weight: 700;">Portfólio</h1>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card">
         <img src="/img/cozinhas.jpg" style="width:100%" alt="cozinhas" async>
         <div class="w3-container w3-center">
-          <h3>Cozinhas</h3>
+          <h2>Cozinhas</h2>
           <p><a href="/projetos.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
         </div>
       </div>
@@ -422,7 +422,7 @@ position: relative;
       <div class="w3-card">
         <img src="/img/dormitorios.jpg" style="width:100%" alt="dormitorios" async>
         <div class="w3-container w3-center">
-          <h3>Dormitórios</h3>
+          <h2>Dormitórios</h2>
           <p><a href="/projetos.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
         </div>
       </div>
@@ -431,7 +431,7 @@ position: relative;
       <div class="w3-card">
         <img src="/img/salas.jpg" style="width:100%" alt="salas" async>
         <div class="w3-container w3-center">
-          <h3>Salas</h3>
+          <h2>Salas</h2>
           <p><a href="/projetos.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
         </div>
       </div>
@@ -442,6 +442,7 @@ position: relative;
 <!-- Contact Section -->
 
 <div class="w3-row-padding w3-container  bg-black" style="padding:64px 32px;" id="contato">
+  <h1 class="w3-center" style="font-size: 40px; font-weight: 700;">Contato</h1>
   <div class="w3-col m6 text-w">
     <p class="mbr-text">
         <strong>Endereço</strong>
