@@ -7,9 +7,9 @@ function imageFromFolder($folder, $tags, $slideToIndex)
 {
     $imagens = readFilesFromFolder($folder);
     foreach ($imagens as &$imagem) {
-        echo "<div class='w3-col l3 m6'>";
+        //echo "<div class='w3-col l3 m6'>";
         echo "<img src='${folder}/${imagem}' style='width:100%' onclick='onClick(this)' class='w3-hover-opacity'>";
-        echo "</div>";
+        //echo "</div>";
         $slideToIndex++;
     }
     return $slideToIndex;
@@ -111,6 +111,54 @@ body, html {
 height: 25rem;
 position: relative;
 }
+
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
 </style>
 <body>
 
@@ -144,7 +192,7 @@ position: relative;
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="work">
   <h3 class="w3-center">Portfólio</h3>
-  <div class="w3-row-padding" style="margin-top:64px">
+  <div id="photos" class="w3-row-padding" style="margin-top:64px">
     <?php
       $slideToIndex = 0;
       $slideToIndex = imageFromFolder('./img/projetos/3d', 'Projetos 3d', $slideToIndex);
