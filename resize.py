@@ -1,9 +1,9 @@
 import os
 import tinify
-tinify.key = ""
+tinify.key = "nSBVDzq0vnV1DJGbr5RLXkdR5wdlT83k"
 
 paths = [
-    'D:\\git\\iberiamoveis\\img'
+    'D:\\git\\iberiamoveis\\img\\home'
 ]
 
 #
@@ -19,7 +19,12 @@ for path in paths:
 for f in files:
     source = tinify.from_file(f)
     bsize = os.path.getsize(f)
-    source.to_file(f)
+    resized = source.resize(
+    method="thumb",
+        width=350,
+        height=350
+    )
+    resized.to_file(f)
     asize = os.path.getsize(f)
     print(f, '\tb:', bsize, '\ta:', asize)
 

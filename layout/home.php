@@ -27,7 +27,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/projetos/cozinhas/3.jpg" alt="">
+            <img class="img-fluid" src="/img/cozinhas.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Cozinhas</h4>
@@ -40,7 +40,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/projetos/dormitorios/27.jpg" alt="">
+            <img class="img-fluid" src="/img/dormitorios.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Dormitórios</h4>
@@ -53,7 +53,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/projetos/salas/2.jpg" alt="">
+            <img class="img-fluid" src="/img/salas.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Salas</h4>
