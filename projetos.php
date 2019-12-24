@@ -282,15 +282,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
-  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,
-  'Helvetica Neue',Arial,sans-serif,
-  'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
 
 body, html {
   height: 100%;
   line-height: 1.8;
-  font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
 
 /* Full height image header */
@@ -333,8 +329,7 @@ body, html {
 .text-headings {
   font-weight: 700;
   font-size: 50px;
-  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
-}
+ }
 
 .text-bold {
   font-weight: bold;
