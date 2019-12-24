@@ -121,7 +121,7 @@ position: relative;
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <!-- <a href="#about" class="w3-bar-item w3-button text-w">ABOUT</a> -->
-      <a href="/#portfolio" class="w3-bar-item w3-button w3-a text-w"><i class="fa fa-cube"></i> Portfólio</a>
+      <a href="#" class="w3-bar-item w3-button w3-a text-y"><i class="fa fa-cube"></i> Portfólio</a>
       <a href="/#diferencial" class="w3-bar-item w3-button w3-a text-w"><i class="fa fa-th"></i> Diferencial</a>
       <a href="/#contato" class="w3-bar-item w3-button w3-a text-w"><i class="fa fa-envelope"></i> Contato</a>
     </div>
@@ -136,7 +136,7 @@ position: relative;
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-a w3-large w3-padding-16">Fechar ×</a>
-  <a href="/#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-a">Portfólio</a>
+  <a href="/#" onclick="w3_close()" class="w3-bar-item w3-button w3-a text-y">Portfólio</a>
   <a href="/#diferencial" onclick="w3_close()" class="w3-bar-item w3-button w3-a">Diferencial</a>
   <a href="/#contato" onclick="w3_close()" class="w3-bar-item w3-button w3-a">Contato</a>
 </nav>
