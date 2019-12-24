@@ -278,8 +278,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 <!-- <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
 <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><style>
 
 /*
  * menu color : #212529
@@ -485,7 +484,7 @@ position: relative;
     </div>
   </div>
   <a rel="noopener noreferrer" 
-     href="https://api.whatsapp.com/send?phone=5511988413302&text=Ol%E1%2C%20quero%20solicitar%20um%20or%E7amento."
+     href="https://api.whatsapp.com/send?phone=5511988413302&text=Ol%C3%A1%2C+quero+solicitar+um+or%C3%A7amento."
      class="float" target="_blank">
      <i class="fa fa-whatsapp my-float"></i>
   </a>
