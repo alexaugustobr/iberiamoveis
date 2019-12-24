@@ -14,21 +14,6 @@ function imageFromFolder($folder, $tags, $slideToIndex)
     }
     return $slideToIndex;
 }
-function imageModalFromFolder($folder, $firstList)
-{
-    $imagens = readFilesFromFolder($folder);
-    $index = 1;
-    foreach ($imagens as $imagem) {
-        if ($index == 1 && $firstList) {
-            echo "<div class='carousel-item active'>";
-        } else {
-            echo "<div class='carousel-item'>";
-        }
-        echo "<imgsrc='${folder}/${imagem}' alt='' title=''>";
-        echo "</div>";
-        $index++;
-    }
-} 
 ?> 
 
 <!DOCTYPE html>
