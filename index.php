@@ -417,7 +417,7 @@ position: relative;
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/cozinhas.jpg" style="width:100%">
+        <img src="/img/cozinhas.jpg" style="width:100%" alt="cozinhas">
         <div class="w3-container w3-center">
           <h3>Cozinhas</h3>
           <p><a href="/projetos.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
@@ -426,7 +426,7 @@ position: relative;
     </div>
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/dormitorios.jpg" style="width:100%">
+        <img src="/img/dormitorios.jpg" style="width:100%" alt="dormitorios">
         <div class="w3-container w3-center">
           <h3>Dormitórios</h3>
           <p><a href="/projetos.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
@@ -435,7 +435,7 @@ position: relative;
     </div>
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/salas.jpg" style="width:100%">
+        <img src="/img/salas.jpg" style="width:100%" alt="salas">
         <div class="w3-container w3-center">
           <h3>Salas</h3>
           <p><a href="/projetos.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
