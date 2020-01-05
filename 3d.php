@@ -438,11 +438,6 @@ position: relative;
     <?php
       $slideToIndex = 0;
       $slideToIndex = imageFromFolder('./img/projetos/3d', 'Projetos 3d', $slideToIndex);
-      $slideToIndex = imageFromFolder('./img/projetos/banheiros', 'Banheiros', $slideToIndex);
-      $slideToIndex = imageFromFolder('./img/projetos/cozinhas', 'Cozinhas', $slideToIndex);
-      $slideToIndex = imageFromFolder('./img/projetos/dormitorios', 'Dormitórios', $slideToIndex);
-      $slideToIndex = imageFromFolder('./img/projetos/salas', 'Salas', $slideToIndex);
-      $slideToIndex = imageFromFolder('./img/projetos/comercial', 'Comercial', $slideToIndex);
     ?>
   </div>
 </div>

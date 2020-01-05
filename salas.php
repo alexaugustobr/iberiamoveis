@@ -1,9 +1,24 @@
-<?php ?>
+<?php
+function readFilesFromFolder($folder)
+{
+    return array_diff(scandir($folder), array('..', '.'));
+}
+function imageFromFolder($folder, $tags, $slideToIndex)
+{
+    $imagens = readFilesFromFolder($folder);
+    foreach ($imagens as &$imagem) {
+        //echo "<div class='w3-col l3 m6'>";
+        echo "<img src='${folder}/${imagem}' style='width:100%' onclick='onClick(this)' class='w3-hover-opacity'>";
+        //echo "</div>";
+        $slideToIndex++;
+    }
+    return $slideToIndex;
+}
+?> 
+
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <title>Ibéria Móveis Sob Medida, Marcenária atendemos em São Paulo</title>
-
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -273,20 +288,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	margin-top:16px;
 }
 </style>
-
 <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
 <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 <!-- <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
 <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><style>
-
-/*
- * menu color : #212529
- * yellow logo : #fec503
- * yellow hover : #fed136
- * card : #fff
- * bg grey #f8f9fa !important
- */
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><style>
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
@@ -347,6 +353,54 @@ body, html {
 height: 25rem;
 position: relative;
 }
+
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
 </style>
 <body>
 
@@ -357,7 +411,7 @@ position: relative;
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <!-- <a href="#about" class="w3-bar-item w3-button text-w">ABOUT</a> -->
-      <a href="/#portfolio" class="w3-bar-item w3-button w3-a text-w"><i class="fa fa-cube"></i> Portfólio</a>
+      <a href="#" class="w3-bar-item w3-button w3-a text-y"><i class="fa fa-cube"></i> Portfólio</a>
       <a href="/#diferencial" class="w3-bar-item w3-button w3-a text-w"><i class="fa fa-th"></i> Diferencial</a>
       <a href="/#contato" class="w3-bar-item w3-button w3-a text-w"><i class="fa fa-envelope"></i> Contato</a>
     </div>
@@ -372,101 +426,34 @@ position: relative;
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-a w3-large w3-padding-16">Fechar ×</a>
-  <a href="/#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-a">Portfólio</a>
+  <a href="/#" onclick="w3_close()" class="w3-bar-item w3-button w3-a text-y">Portfólio</a>
   <a href="/#diferencial" onclick="w3_close()" class="w3-bar-item w3-button w3-a">Diferencial</a>
   <a href="/#contato" onclick="w3_close()" class="w3-bar-item w3-button w3-a">Contato</a>
 </nav>
 
-<!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min w3-center" style="padding:128px 16px" id="home">
-  <div class="w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Móveis Sob Medida</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Móveis Sob Medida</span><br>
-    <p><a href="/#portfolio" class="w3-button w3-white w3-padding-large w3-large w3-margin-top 
-        w3-opacity w3-hover-opacity-off">Confira o nosso portfólio</a></p>
-  </div> 
-  <div class="w3-display-bottomleft text-y" style="padding:24px 48px;font-size: 3em;">
-    <a href="https://www.instagram.com/iberiamoveis"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-  </div>
-</header>
-<!-- About Section -->
-<div class="w3-container  w3-light-grey" style="padding:64px 16px" id="diferencial">
-  <h1 class="w3-center text-headings">Diferencial</h1>
-  <div class="w3-row-padding w3-center" style="margin-top:64px; max-width: 1140px; padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;">
-    <div class="w3-third">
-      <span class="fa-stack fa-2x w3-xxxlarge">
-        <i class="fa fa-circle fa-stack-2x text-y"></i>
-        <i class="fa fa-credit-card fa-stack-1x fa-inverse"></i>
-      </span>
-      <h2 class="w3-large text-bold w3-xlarge">Parcelamos no cartão</h2>
-      <p>Parcele no cartão, também oferecemos desconto para pagamento à vista.</p>
-    </div>
-    <div class="w3-third">
-        <span class="fa-stack fa-2x w3-xxxlarge">
-            <i class="fa fa-circle fa-stack-2x text-y"></i>
-            <i class="fa fa-bed fa-stack-1x fa-inverse"></i>
-        </span>
-      <h2 class="w3-large">Móveis com garantia</h2>
-      <p>Oferecemos garantia nos nossos móveis.</p>
-    </div>
-    <div class="w3-third">
-      <span class="fa-stack fa-2x w3-xxxlarge">
-        <i class="fa fa-circle fa-stack-2x text-y"></i>
-        <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
-      </span>
-      <h2 class="w3-large">Projeto 3D personalizado</h2>
-      <p>Desenvolvemos o seu projeto 3d sob medida.</p>
-    </div>
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h1 class="w3-center">Portfólio</h1>
+  <div id="photos" class="w3-row-padding" style="margin-top:64px">
+    <?php
+      $slideToIndex = 0;
+      $slideToIndex = imageFromFolder('./img/projetos/salas', 'Salas', $slideToIndex);
+    ?>
   </div>
 </div>
 
-<!-- Team Section -->
-<div class="w3-container" style="padding:64px 16px" id="portfolio">
-  <h1 class="w3-center" style="font-size: 40px; font-weight: 700;">Portfólio</h1>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-    <div class="w3-quarter w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/img/cozinhas.jpg" style="width:100%" alt="cozinhas" async>
-        <div class="w3-container w3-center">
-          <h2>Cozinhas</h2>
-          <p><a href="/cozinhas.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-quarter w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/img/dormitorios.jpg" style="width:100%" alt="dormitorios" async>
-        <div class="w3-container w3-center">
-          <h2>Dormitórios</h2>
-          <p><a href="/dormitorios.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-quarter w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/img/salas.jpg" style="width:100%" alt="salas" async>
-        <div class="w3-container w3-center">
-          <h2>Salas</h2>
-          <p><a href="/salas.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-quarter w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/img/3d.jpg" style="width:100%" alt="salas" async>
-        <div class="w3-container w3-center">
-          <h2>Projetos 3d</h2>
-          <p><a href="/3d.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
-        </div>
-      </div>
-    </div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
 
 <!-- Contact Section -->
 
 <div class="w3-row-padding w3-container  bg-black" style="padding:64px 32px;" id="contato">
-  <h1 class="w3-center text-w" style="font-size: 40px; font-weight: 700;">Contato</h1>
   <div class="w3-col m6 text-w">
     <p class="mbr-text">
         <strong>Endereço</strong>
@@ -488,8 +475,8 @@ position: relative;
   </div>
   <div class="w3-col m6">
     <div style="margin-top:32px; overflow:hidden;width: 100%;position: relative;">
-      <!-- <iframe width="100%" height="440" style="border:0" src="https://www.google.com/maps/embed?key=AIzaSyDsmOVpjte6zvtKLK2fma50QUIDdrqImSk&pb=!1m14!1m8!1m3!1d7316.737170417157!2d-46.499788!3d-23.519242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6095a2366c21%3A0x1a785f586db516fe!2sR.%20Prof.%20Jos%C3%A9%20de%20Barros%20Pinto%2C%20193b%20-%20Vila%20Frugoli%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003674-040!5e0!3m2!1spt-BR!2sbr!4v1572806782250!5m2!1spt-BR!2sbr" allowfullscreen="" frameborder="0"></iframe> -->
-        <a href="https://www.google.com/maps/dir//R.+Prof.+José+de+Barros+Pinto+193C/"><img src="https://maps.googleapis.com/maps/api/staticmap?center=R.+Prof.+José+de+Barros+Pinto+193C&zoom=15&scale=false&size=440x440&maptype=roadmap&key=AIzaSyDsmOVpjte6zvtKLK2fma50QUIDdrqImSk&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CR.+Prof.+José+de+Barros+Pinto+193C" alt="Google Map of R. Prof. José de Barros Pinto 193C"></a>
+     <!-- <iframe width="100%" height="440" style="border:0" src="https://www.google.com/maps/embed?key=AIzaSyDsmOVpjte6zvtKLK2fma50QUIDdrqImSk&pb=!1m14!1m8!1m3!1d7316.737170417157!2d-46.499788!3d-23.519242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6095a2366c21%3A0x1a785f586db516fe!2sR.%20Prof.%20Jos%C3%A9%20de%20Barros%20Pinto%2C%20193b%20-%20Vila%20Frugoli%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003674-040!5e0!3m2!1spt-BR!2sbr!4v1572806782250!5m2!1spt-BR!2sbr" allowfullscreen="" frameborder="0"></iframe> -->
+      <a href="https://www.google.com/maps/dir//R.+Prof.+José+de+Barros+Pinto+193C/"><img src="https://maps.googleapis.com/maps/api/staticmap?center=R.+Prof.+José+de+Barros+Pinto+193C&zoom=15&scale=false&size=440x440&maptype=roadmap&key=AIzaSyDsmOVpjte6zvtKLK2fma50QUIDdrqImSk&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CR.+Prof.+José+de+Barros+Pinto+193C" alt="Google Map of R. Prof. José de Barros Pinto 193C"></a>
     </div>
   </div>
   <a rel="noopener noreferrer" 
@@ -499,8 +486,14 @@ position: relative;
   </a>
 </div>
 
+
 <script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
 var mySidebar = document.getElementById("mySidebar");
+
 function w3_open() {
   if (mySidebar.style.display === 'block') {
     mySidebar.style.display = 'none';
