@@ -453,7 +453,7 @@ position: relative;
     </div>
     <div class="w3-quarter w3-margin-bottom">
       <div class="w3-card">
-        <img src="/img/3d.jpg" style="width:100%" alt="salas" async>
+        <img src="/img/3d.jpg" style="width:100%" alt="3d" async>
         <div class="w3-container w3-center">
           <h2>Projetos 3d</h2>
           <p><a href="/3d.php" class="w3-button w3-light-grey w3-block"><i class="fa fa-cube"></i> Ver mais</a></p>
