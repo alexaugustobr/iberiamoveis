@@ -1,0 +1,95 @@
+{{ define "main" }}
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min w3-center" style="padding:128px 16px" id="home">
+<div class="w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Móveis Sob Medida</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Móveis Sob Medida</span><br>
+    <p><a href="/#portfolio" class="w3-button w3-white w3-padding-large w3-large w3-margin-top 
+        w3-opacity w3-hover-opacity-off">Confira o nosso portfólio</a></p>
+</div> 
+<div class="w3-display-bottomleft text-y" style="padding:24px 48px;font-size: 3em;">
+    <a href="https://www.instagram.com/marcenaria.iberia/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+</div>
+</header>
+
+
+<!-- About Section -->
+<div class="w3-container  w3-light-grey" style="padding:64px 16px" id="diferencial">
+  <h1 class="w3-center text-headings">Diferencial</h1>
+  <div class="w3-row-padding w3-center" style="margin-top:64px; max-width: 1140px; padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;">
+    <div class="w3-third">
+      <span class="fa-stack fa-2x w3-xxxlarge">
+        <i class="fa fa-circle fa-stack-2x text-y"></i>
+        <i class="fa fa-credit-card fa-stack-1x fa-inverse"></i>
+      </span>
+      <h2 class="w3-large text-bold w3-xlarge">Parcelamos no cartão</h2>
+      <p>Parcele no cartão, também oferecemos desconto para pagamento à vista.</p>
+    </div>
+    <div class="w3-third">
+        <span class="fa-stack fa-2x w3-xxxlarge">
+            <i class="fa fa-circle fa-stack-2x text-y"></i>
+            <i class="fa fa-bed fa-stack-1x fa-inverse"></i>
+        </span>
+      <h2 class="w3-large">Móveis com garantia</h2>
+      <p>Oferecemos garantia nos nossos móveis.</p>
+    </div>
+    <div class="w3-third">
+      <span class="fa-stack fa-2x w3-xxxlarge">
+        <i class="fa fa-circle fa-stack-2x text-y"></i>
+        <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
+      </span>
+      <h2 class="w3-large">Projeto 3D personalizado</h2>
+      <p>Desenvolvemos o seu projeto 3d sob medida.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:64px 16px" id="portfolio">
+  <h1 class="w3-center" style="font-size: 40px; font-weight: 700;">Portfólio</h1>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-quarter w3-margin-bottom">
+      <div class="w3-card">
+        <a href="/cozinhas/">
+          <img src="/img/cozinhas.jpg" style="width:100%" alt="cozinhas">
+          <div class="w3-container w3-center">
+            <h2>Cozinhas</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="w3-quarter w3-margin-bottom">
+      <div class="w3-card">
+        <a href="/dormitorios/">
+          <img src="/img/dormitorios.jpg" style="width:100%" alt="dormitorios">
+          <div class="w3-container w3-center">
+            <h2>Dormitórios</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="w3-quarter w3-margin-bottom">
+      <div class="w3-card">
+        <a href="/salas/">
+          <img src="/img/salas.jpg" style="width:100%" alt="salas">
+          <div class="w3-container w3-center">
+            <h2>Salas</h2>
+          </div>
+      </div>
+    </div>
+    <div class="w3-quarter w3-margin-bottom">
+      <div class="w3-card">
+        <a href="/3d/">
+            <img src="/img/3d.jpg" style="width:100%" alt="3d">
+            <div class="w3-container w3-center">
+              <h2>Projetos 3d</h2>
+            </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{{ end }}

@@ -1,0 +1,30 @@
+[build]
+publish = "public"
+command = "hugo --gc"
+
+[context.production.environment]
+HUGO_VERSION = "0.81.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.81.0"
+
+# Cache control
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+	cache-control = 'max-age=604800'
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+	cache-control = 'max-age=604800'
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    cache-control = 'max-age=604800'
